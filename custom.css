@@ -1,0 +1,38 @@
+.goal_widget__progress_bar {
+	/*if you want you can put just a color or an image like I did*/
+	background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fe5%2F89%2F95%2Fe5899572ecace2b0895b36db7703a001.gif&f=1&nofb=1");
+	object-fit: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.75;
+}
+
+.goal_widget__image {
+	display: none;
+}
+
+.goal_widget {
+	background: #000 !important;
+}
+
+.goal_widget__metadata {
+	text-align: center;
+	color: #fff !important;
+	font-size: 100%;
+}
+
+.goal_widget__contributions {
+	color: #FFF !important;
+	display: block !important;
+	text-align: left;
+	font-size: 75%;
+
+}
+
+.goal_widget__contributions > * {
+	display: inline-block;
+}
+
+.goal_widget__body {
+	padding-left: 0 !important;
+}
