@@ -37,6 +37,10 @@
 	font-size: 100%;
 }
 
+.goal_widget__metadata > div:first-child {
+	color: #fff !important;
+}
+
 /* this is the progress numbers e.g. 10/100 subs */
 .goal_widget__contributions {
 	color: #FFF !important;
